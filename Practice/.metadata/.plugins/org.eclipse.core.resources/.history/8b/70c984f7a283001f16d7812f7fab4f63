@@ -1,0 +1,6 @@
+package code;
+
+public class ViDu {
+	private int a, b;
+	
+}

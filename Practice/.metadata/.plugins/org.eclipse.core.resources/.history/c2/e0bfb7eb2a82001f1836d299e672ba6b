@@ -1,0 +1,13 @@
+
+public class Test {
+	public static void main(String[] args) {
+		NgaySX ngay1 = new NgaySX(22, 9, 2002);
+		NgaySX ngay2 = new NgaySX(4, 2, 2010);
+		
+		QuocGia quocgia1 = new QuocGia("VN", "Viet Nam");
+		QuocGia quocgia2 = new QuocGia("USA", "Hoa ki");
+		
+		HangSX hangsx1 = new HangSX("intel", quocgia1);
+		HangSX hangsx2 = new HangSX("vinamil", quocgia2);
+	}
+}

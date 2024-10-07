@@ -1,0 +1,14 @@
+TextOccurrenceIndication=true
+comment_stylePreferences=NONE
+comment_text=false
+eclipse.preferences.version=1
+matchingTagIndication=true
+nocoverage_stylePreferences=NONE
+nocoverage_text=false
+partialcoverage_stylePreferences=NONE
+partialcoverage_text=false
+quickdiff.quickDiff=false
+showAnnotationAsCodeMiningLevel=14
+spellingEnabled=false
+warningIndicationColor=198,198,187
+writeOccurrenceIndication=true

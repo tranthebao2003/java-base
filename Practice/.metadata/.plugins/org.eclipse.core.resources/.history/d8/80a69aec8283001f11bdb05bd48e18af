@@ -1,0 +1,21 @@
+package baiTapKeThuaAbstract;
+
+public abstract class PhuongTien extends HangSx{
+
+	private String loaiPt;
+
+	public PhuongTien(String tenHangSx, String tenQg, String loaiPt) {
+		super(tenHangSx, tenQg);
+		this.loaiPt = loaiPt;
+	}
+
+	public String getLoaiPt() {
+		return loaiPt;
+	}
+
+	public void setLoaiPt(String loaiPt) {
+		this.loaiPt = loaiPt;
+	}
+
+	
+}

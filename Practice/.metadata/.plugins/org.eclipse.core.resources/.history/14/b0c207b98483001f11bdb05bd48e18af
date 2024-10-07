@@ -1,0 +1,36 @@
+package baiTapKeThuaAbstract;
+
+public abstract class PhuongTien extends HangSx{
+
+	private String loaiPt;
+
+	public PhuongTien(String tenHangSx, String tenQg, String loaiPt) {
+		super(tenHangSx, tenQg);
+		this.loaiPt = loaiPt;
+	}
+
+	public String getLoaiPt() {
+		return loaiPt;
+	}
+
+	public void setLoaiPt(String loaiPt) {
+		this.loaiPt = loaiPt;
+	}
+
+	public String layTenHangSx() {
+		return getTenHangSx();
+	}
+	public void batDau() {
+		System.out.println("Bắt đầu");
+	}
+	
+	public void tangToc() {
+		System.out.println("Tăng tốc");
+	}
+	
+	public void DungLai() {
+		System.out.println("Dừng lại");
+	}
+	
+	public abstract double layVanToc();
+}

@@ -1,0 +1,9 @@
+
+
+public class MayTinh {
+	private HangSX hangSx;
+	private NgaySX ngaySx;
+	private double giaBan;
+	private int thoiBh;
+	
+}

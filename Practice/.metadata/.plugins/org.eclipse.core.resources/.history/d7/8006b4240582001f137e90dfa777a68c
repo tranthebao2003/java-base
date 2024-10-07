@@ -1,0 +1,10 @@
+
+public class Test {
+	public static void main(String[] args) {
+		NgaySinh ngay1 = new NgaySinh(22, 04, 2015);
+		NgaySinh ngay2 = new NgaySinh(22, 07, 2010);
+		
+		Lop lop1 = new Lop("Lớp A", "Công nghệ thông tin");
+		Lop lop2 = new Lop("Lớp B", "Công nghệ thông tin 2");
+	}
+}

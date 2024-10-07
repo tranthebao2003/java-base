@@ -1,0 +1,15 @@
+
+public class variable {
+		
+		
+		
+		public static void main(String[] args) {
+			
+			String notification = "Xin chào";
+			String fullname = "Trần Thế Bảo";
+			String bookName;
+			
+			System.out.println();
+		}
+	
+}

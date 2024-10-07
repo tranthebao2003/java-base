@@ -1,0 +1,16 @@
+
+public class Sach {
+/*	Xây dựng 1 ứng dụng java quản lý những quyển sách 
+ * với các thông tin sau: Sách bao gồm tên sách, giá
+ * bán, năm xuất bản và tác giả. Tác giả bao gồm các 
+ * thông tin là tên và ngày sinh. Ngày bao gồm các 
+ * thông tin là ngày, tháng và năm.
+ * 
+ * Viết phương thức:
+ * in ra màn hình tên của 1 cuốn sách
+ * Cho biết quyển sách bất kì có được xuất bản cùng năm
+ * với 1 quyển sách nào đó hay không
+ * Cho biết giá sách sau khi giảm x%, x được truyền
+ * vào như 1 tham số
+*/	
+}

@@ -1,0 +1,37 @@
+
+public class NgaySX {
+	private String ngay, thang,nam;
+
+	public NgaySX(String ngay, String thang, String namg) {
+		super();
+		this.ngay = ngay;
+		this.thang = thang;
+		this.nam = namg;
+	}
+
+	public String getNgay() {
+		return ngay;
+	}
+
+	public void setNgay(String ngay) {
+		this.ngay = ngay;
+	}
+
+	public String getThang() {
+		return thang;
+	}
+
+	public void setThang(String thang) {
+		this.thang = thang;
+	}
+
+	public String getNamg() {
+		return nam;
+	}
+
+	public void setNamg(String nam) {
+		this.nam = nam;
+	}
+	
+	
+}

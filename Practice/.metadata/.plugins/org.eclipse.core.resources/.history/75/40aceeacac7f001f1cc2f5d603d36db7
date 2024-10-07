@@ -1,0 +1,16 @@
+
+public class breakContinueReturn {
+	public static void main(String[] args) {
+//		sử dụng label
+		
+		int out, in = 0;
+		for (out = 0; out < 10; out++) {
+			for (in = 0; in < 20; in++) {
+				if(in > 10)
+					break;
+			}
+			System.out.println("Bên trong vòng lap out: out = " + out + ", in = " + in);
+		}
+		System.out.println("vòng lặp bên ngoài: out = " + out + ", in = " + in);
+	}
+}

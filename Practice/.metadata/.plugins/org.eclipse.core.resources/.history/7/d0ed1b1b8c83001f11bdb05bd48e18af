@@ -1,0 +1,8 @@
+
+public class Test {
+	public static void main(String[] args) {
+		System.out.println("Test câu a");
+		MayTinhCasioFX500 mfx500 = new MayTinhCasioFX500();
+		
+	}
+}

@@ -1,0 +1,18 @@
+
+public class method {
+	public class HoaDonCaPhe {
+		private String nameCafe;
+		private double giaTien1kg;
+		private double khoiLuong;
+
+		public HoaDonCaPhe(String nameCafe, double giaTien1kg, double khoiLuong) {
+			this.nameCafe = nameCafe;
+			this.giaTien1kg = giaTien1kg;
+			this.khoiLuong = khoiLuong;
+		}
+		
+		public double sum() {
+			return this.giaTien1kg * this.khoiLuong;
+		}
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="replacehistory">
+		<item value="int"/>
+	</list>
+	<list key="searchhistory">
+		<item value="indexEnd"/>
+		<item value="String"/>
+	</list>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="165"/>
+		<item key="DIALOG_Y_ORIGIN" value="374"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value=""/>
+		</list>
+	</section>
+</section>

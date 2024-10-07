@@ -1,0 +1,58 @@
+public class Phim {
+	private String tenPhim;
+	private int namsx;
+	private String hangsx;
+	private double giaVe;
+	private String ngayChieu;
+	
+	public Phim(String tenPhim, int namsx, String hangsx, double giaVe, String ngayChieu) {
+		super();
+		this.tenPhim = tenPhim;
+		this.namsx = namsx;
+		this.hangsx = hangsx;
+		this.giaVe = giaVe;
+		this.ngayChieu = ngayChieu;
+	}
+
+	public String getTenPhim() {
+		return tenPhim;
+	}
+
+	public void setTenPhim(String tenPhim) {
+		this.tenPhim = tenPhim;
+	}
+
+	public int getNamsx() {
+		return namsx;
+	}
+
+	public void setNamsx(int namsx) {
+		this.namsx = namsx;
+	}
+
+	public String getHangsx() {
+		return hangsx;
+	}
+
+	public void setHangsx(String hangsx) {
+		this.hangsx = hangsx;
+	}
+
+	public double getGiaVe() {
+		return giaVe;
+	}
+
+	public void setGiaVe(double giaVe) {
+		this.giaVe = giaVe;
+	}
+
+	public String getNgayChieu() {
+		return ngayChieu;
+	}
+
+	public void setNgayChieu(String ngayChieu) {
+		this.ngayChieu = ngayChieu;
+	}
+	
+	
+}

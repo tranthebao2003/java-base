@@ -1,0 +1,5 @@
+
+public class TacGia {
+	private String tenTacGia;
+	private Ngay ngaySing;
+}

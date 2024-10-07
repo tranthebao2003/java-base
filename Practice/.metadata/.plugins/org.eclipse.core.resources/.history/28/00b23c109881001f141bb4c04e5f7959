@@ -1,0 +1,8 @@
+public class Phim {
+	private String tenPhim;
+	private int namsx;
+	private String hangsx;
+	private double giaVe;
+	private String ngayChieu;
+	
+}

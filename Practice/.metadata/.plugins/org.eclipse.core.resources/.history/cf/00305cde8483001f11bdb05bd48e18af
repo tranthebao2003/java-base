@@ -1,0 +1,14 @@
+package baiTapKeThuaAbstract;
+
+public class XeDap extends PhuongTien{
+
+	public XeDap(String tenHangSx, String tenQg, String loaiPt) {
+		super(tenHangSx, tenQg, loaiPt);
+	}
+
+	@Override
+	public double layVanToc() {
+		return 0;
+	}
+	
+}

@@ -1,0 +1,8 @@
+
+public class Test {
+	public static void main(String[] args) {
+		NgaySinh ngay1 = new NgaySinh(22, 04, 2015);
+		NgaySinh ngay2 = new NgaySinh(22, 07, 2010);
+		
+	}
+}

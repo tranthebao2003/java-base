@@ -1,0 +1,15 @@
+
+public class Test {
+	public static void main(String[] args) {
+		Dog d = new Dog("cho");
+		d.eat();
+		d.bark();
+		
+		BabyDog bbd = new BabyDog("cho nho");
+		bbd.eat();
+		bbd.bark();
+		bbd.weep();
+		bbd.name = "moi doi";
+	}
+	
+}

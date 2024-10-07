@@ -1,0 +1,9 @@
+package overRidding;
+
+public class Test {
+	public static void main(String[] args) {
+		Animal animal1 = new Animal("dong vat");
+		
+		Dog dog1 = new Dog();
+	}
+}

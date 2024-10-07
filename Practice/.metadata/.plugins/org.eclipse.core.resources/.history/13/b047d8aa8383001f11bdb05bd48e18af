@@ -1,0 +1,6 @@
+package baiTapKeThuaAbstract;
+
+public class XeOto {
+	public String loaiNhienLieu;
+	
+}

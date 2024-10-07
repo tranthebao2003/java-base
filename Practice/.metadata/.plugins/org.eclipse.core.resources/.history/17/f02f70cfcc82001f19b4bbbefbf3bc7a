@@ -1,0 +1,11 @@
+
+public class HInhChuNhat extends Hinh {
+	private double chieuRong, chieuCao;
+
+	public HInhChuNhat(ToaDo toaDo, double chieuRong, double chieuCao) {
+		super(toaDo);
+		this.chieuRong = chieuRong;
+		this.chieuCao = chieuCao;
+	}
+
+}

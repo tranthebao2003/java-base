@@ -1,0 +1,143 @@
+import java.util.Objects;
+
+public class MyDate2 {
+	private int day;
+	private int month;
+	private int year;
+
+	public MyDate2(int day, int month, int year) {
+		if (day >= 1 && day <= 31) {
+			this.day = day;
+		} else {
+			this.day = 1;
+		}
+
+		if (month >= 1 && month <= 12) {
+			this.month = month;
+		} else {
+			this.month = 1;
+		}
+
+		if (year >= 1) {
+			this.year = year;
+		} else {
+			this.year = 1;
+		}
+
+	}
+
+	public int getDay() {
+		return day;
+	}
+
+	public void setDay(int day) {
+		if (day >= 1 && day <= 31) {
+			this.day = day;
+		}
+	}
+
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		if (month >= 1 && month <= 12)
+			this.month = month;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		if (year >= 1)
+		this.year = year;
+	}
+
+//	method toString()
+	@Override
+	public String toString() {
+		return this.day +"/" + this.month + "/" + this.year;
+	}
+	
+//	method equals
+	
+
+//	@Override
+//	public int hashCode() {
+//		return Objects.hash(day, month, year);
+//	}
+
+//	kiểu dữ liệu object đại diện cho all object trong java
+//	ở đây mình thêm this cho dễ hiểu nó đại diện cho class này
+//	còn khi generate ra từ source thì nó sẽ không có this
+//	@Override
+//	public boolean equals(Object obj) {
+////		this nghĩa là lớp ta đang đứng
+//		if (this == obj)
+//			return true;
+//		if (obj == null)
+//			return false;
+////		getClass cho ra được class của object này
+////		đương nhiên nếu 2 object != class thì nó khác nhau rồi
+//		if (this.getClass() != obj.getClass())
+//			return false;
+////		này chính là ép kiểu dữ liệu 
+//		MyDate2 other = (MyDate2) obj;
+//		return this.day == other.day && this.month == other.month && this.year == other.year;
+//	}
+	
+	
+	
+	public static void main(String[] args) {
+		MyDate2 md = new MyDate2(28, 1, 2021);
+		MyDate2 md1 = new MyDate2(28, 1, 2021);
+		System.out.println("Day = " + md.getDay());
+		md.setDay(0);
+		md.setDay(20);
+		System.out.println("Day = " + md.getDay());
+		
+		md.setMonth(0);
+		md.setMonth(12);
+		System.out.println("Day = " + md.getMonth());
+		
+		// nếu mình có phương thức toString()
+		// thì khi mình in ra 1 instance của class
+		// thì nó sẻ sử dụng method này
+		System.out.println(md); // phải in ra 31/1/2021
+		
+		
+//		 phương thức so sánh equals và hascode 
+//		ko thể dùng == để so sánh 2 instance của 1 class
+		if(md1 == md) {
+			System.out.println("so sánh 2 object md1 và md bằng dấu ==. Kết quả: giống nhau");
+		} else {
+			System.out.println("so sánh 2 object md1 và md bằng dấu ==. kết quả: khác nhau");
+		}
+		
+		if(md1.equals(md)) {
+			System.out.println("so sánh 2 object md1 và md bằng method equals. Kết quả: giống nhau");
+		} else {
+			System.out.println("so sánh 2 object md1 và md bằng method equals. kết quả: khác nhau");
+		}
+		
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(day, month, year);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		MyDate2 other = (MyDate2) obj;
+		return day == other.day && month == other.month && year == other.year;
+	}
+
+}

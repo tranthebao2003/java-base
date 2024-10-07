@@ -1,0 +1,21 @@
+
+public class Test {
+	public static void main(String[] args) {
+		NgaySinh ngay1 = new NgaySinh(22, 04, 2015);
+		NgaySinh ngay2 = new NgaySinh(22, 07, 2010);
+		
+		Lop lop1 = new Lop("Lớp A", "Công nghệ thông tin");
+		Lop lop2 = new Lop("Lớp B", "Công nghệ thông tin 2");
+		
+		SinhVien sinhvien1 = new SinhVien("N21DCPT008", "Tran The Bao", ngay1, 10, lop1);
+		SinhVien sinhvien2 = new SinhVien("N21DCPT009", "Tran The Hai", ngay2, 4.5, lop2);
+		
+		sinhvien1.layTenKhoa();
+		sinhvien2.layTenKhoa();
+		
+		System.out.println("Kiểm tra thi đạt " + sinhvien1.kiemTraThiDat());
+		System.out.println("Kiểm tra thi đạt " + sinhvien2.kiemTraThiDat());
+		
+		
+	}
+}

@@ -1,0 +1,6 @@
+
+//mặc định các method trong interface đều
+//là abstract method
+public interface MayTinhBoTuiInterface {
+	public double cong(double a, double b);
+}

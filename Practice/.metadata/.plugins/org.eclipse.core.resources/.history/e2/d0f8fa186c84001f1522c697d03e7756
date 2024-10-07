@@ -1,0 +1,28 @@
+import java.util.Arrays;
+
+public class Vidu {
+	public static void main(String[] args) {
+		int[] mang1 = {1,2,3};
+		
+//		copy mảng
+		
+//		cách 1
+//		nếu mình sử dụng phép gán thì khi 1 thằng
+//		thay đổi thì thằng kia cũng thay đổi theo
+		int[] mang1a = mang1;
+		mang1a[0] = 100;
+		System.out.println(Arrays.toString(mang1a));
+		
+//		cách 2: Dùng array.clone() thì khi mang1b thay đổi
+//		thì sẽ không ảnh hưởng gì đến mảng 1
+		int[] mang1b = mang1.clone();
+		mang1b[0] = 50;
+		System.out.println(Arrays.toString(mang1));
+		
+//		cách 3: dùng hàm System.arraycopy
+		int[] mang1c = new int[mang1.length];
+		System.arraycopy(mang1, 1, mang1c, 0, mang1.length);
+		mang1c[0] = 90;
+		System.out.println(Arrays.toString(mang1c));
+;	}
+}

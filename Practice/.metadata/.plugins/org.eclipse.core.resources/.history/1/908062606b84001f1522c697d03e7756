@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class Vidu {
+	public static void main(String[] args) {
+		int[] mang1 = {1,2,3};
+		
+//		copy mảng
+//		nếu mình sử dụng phép gán thì khi 1 thằng
+//		thay đổi thì thằng kia cũng thay đổi theo
+		
+		int[] mang1a = mang1;
+		mang1a[0] = 100;
+		System.out.println(Arrays.toString(mang1a));
+	}
+}
