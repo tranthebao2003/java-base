@@ -7,7 +7,6 @@ nocoverage_stylePreferences=NONE
 nocoverage_text=false
 partialcoverage_stylePreferences=NONE
 partialcoverage_text=false
-quickdiff.quickDiff=false
 showAnnotationAsCodeMiningLevel=14
 spellingEnabled=false
 warningIndicationColor=198,198,187

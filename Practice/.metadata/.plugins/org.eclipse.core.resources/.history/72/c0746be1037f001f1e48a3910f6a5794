@@ -1,7 +1,0 @@
-
-public class Java_04 {
-	public static void main(String[] args) {
-		String notification = 'Xin chào';
-		String fullname = 'Tran The Bao'
-	}
-}

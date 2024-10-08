@@ -94,8 +94,12 @@ public class Vidu {
 //		trim() => xóa khoảng trắng dư thừa ở đầu, cuối chuỗi
 //		subTring(indexStart, indezxEnd + 1) => cắt chuỗi con từ indexStart đến index end
 //		hoặc subTring(indexStart) => cắt từ indexStart đến hết chuỗi
-		String s10 = "Xin chào các bạn, mình là thế bảo";
+		String s10 = "Xin chào các bạn mình là thế bảo";
 		String s11 = s10.substring(0, 4);
 		System.out.println(s11);
+		
+		String s12 = "Xin chào ";
+		System.out.println("indexOf "+ s12.indexOf(" "));
+		System.out.println("lastindexOf "+ s12.lastIndexOf(" "));
 	}
 }
